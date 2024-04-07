@@ -1,51 +1,109 @@
 body {
   font-family: 'Arial', sans-serif;
-  background: #f4f4f4;
+  background: #eaeaea;
   color: #333;
+  line-height: 1.6;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
   color: #fff;
+}
+
+.navbar {
+  margin-bottom: 50px;
 }
 
 #hero img {
-  max-height: 80vh;
-  object-fit: cover;
-}
-
-#history, #types, #artists {
-  margin-bottom: 4rem;
-}
-
-#history img, #types img, #artists img {
+  max-height: 50vh;
   width: 100%;
-  height: auto;
   object-fit: cover;
-  margin-bottom: 1rem;
+  margin-bottom: 30px; 
 }
 
-#types .col-md-4 {
-  margin-bottom: 1rem;
+#history {
+  background: #fff; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+  margin-bottom: 50px; 
 }
 
-#artists ul {
-  list-style: none;
-  padding: 0;
+#types .col-md-4, #artists .col-md-4 {
+  margin-bottom: 30px;
 }
 
-#artists li {
-  background: #fff;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
+#types img, #artists img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; 
+  margin-bottom: 15px;
 }
 
-#subscribe h2, footer {
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #555;
+  margin-top: 0;
+}
+
+#types p, #artists p, #history p {
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#subscribe {
+  padding: 30px;
+  background: #333;
   color: #fff;
+  border-radius: 10px; 
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2); 
+}
+
+#subscribe h2 {
+  margin-bottom: 20px;
+}
+
+#subscribe label {
+  margin-top: 10px;
+}
+
+#subscribe button {
+  background: #e85a4f; 
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#subscribe button:hover {
+  background: #aa3e2f;
 }
 
 footer {
-  background-color: #333;
+  background-color: #444;
+  color: #ddd;
+  padding: 10px 0;
 }
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #hero img {
+    max-height: 30vh; 
+  }
+  #history, #types, #artists, #subscribe {
+    padding: 15px;
+  }
+}
+
 
   
   
