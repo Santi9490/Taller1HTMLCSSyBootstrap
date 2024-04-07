@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Página de Guitarras</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Guitar World</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#history">Historia</a></li>
+        <li class="nav-item"><a class="nav-link" href="#types">Tipos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#artists">Guitarristas</a></li>
+        <li class="nav-item"><a class="nav-link" href="#subscribe">Suscribirse</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section id="hero" class="text-center">
+    <img src="guitarra2.jpg" alt="Guitarra Clásica" class="img-fluid">
+  </section>
+
+  <div class="container mt-5">
+    <section id="history" class="text-center">
+      <h2>Historia de la Guitarra</h2>
+      <p>
+        La guitarra, con su distintiva forma y sonido, ha sido una compañera de músicos durante siglos. Sus raíces se pueden rastrear hasta la Edad Media, con antecedentes como el laúd y la vihuela. A través de la evolución y la innovación, la guitarra ha adoptado diversas formas y tamaños, cada una con su propio carácter y timbre. En el siglo XIX, Antonio de Torres Jurado revolucionó el diseño de la guitarra clásica, estableciendo las bases para los modelos modernos.
+      </p>
+      <p>
+        Con la llegada del siglo XX, la guitarra se encontró en el centro de la revolución del blues, el jazz y el rock'n'roll, definiendo el sonido de generaciones y emergiendo como un símbolo de rebeldía y expresión artística. Artistas como Robert Johnson, B.B. King, Jimi Hendrix y muchos otros han explorado y ampliado las capacidades expresivas de la guitarra, convirtiéndola en el instrumento icónico que conocemos hoy. Para los entusiastas y los aspirantes a guitarristas, conocer su historia es embarcarse en un viaje fascinante a través de culturas y épocas.
+      </p>
+      <p>
+        Desde la guitarra clásica hasta las variantes eléctricas que dominaron el siglo XX, este instrumento ha sido un pilar en la evolución de la música moderna. Cada guitarra cuenta una historia, y cada nota tocada es un eco de su rica herencia cultural. <a href="https://es.wikipedia.org/wiki/Guitarra" target="_blank">Aprende más sobre su evolución aquí.</a>
+      </p>
+    </section>
+
+    <section id="types" class="mt-5">
+      <h2>Tipos de Guitarras</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="acustica.jpg" alt="Guitarra Acústica" class="img-fluid">
+          <h3>Acústica</h3>
+          <p>La guitarra acústica es conocida por su cuerpo hueco que amplifica el sonido de las cuerdas acústicamente. Es versátil y utilizada en muchos estilos musicales como el folk, country y pop.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="electrica.jpg" alt="Guitarra Eléctrica" class="img-fluid">
+          <h3>Eléctrica</h3>
+          <p>La guitarra eléctrica, a través de un amplificador, puede producir una amplia gama de sonidos, lo que la hace indispensable en géneros como el rock, blues y metal.</p>
+        </div>
+        <div class="col-md-4">
+          <img src="clasica.jpg" alt="Guitarra Clásica" class="img-fluid">
+          <h3>Clásica</h3>
+          <p>La guitarra clásica, frecuentemente construida con madera de nylon, es ampliamente utilizada en la música clásica y flamenco y es reconocida por su tono cálido y suave.</p>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="artists" class="mt-5">
+      <h2>Guitarristas Legendarios</h2>
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <img src="Jimi.jpg" alt="Guitarra Eléctrica" class="img-fluid rounded-circle">
+          <h3>Jimmi Hendrix</h3>
+          <p>Conocido por su innovador manejo de la guitarra eléctrica, Jimi Hendrix fue un pionero del rock psicodélico y ha influenciado a generaciones de guitarristas.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="Andrés_Segovia.jpg" alt="Guitarra Acústica" class="img-fluid rounded-circle">
+          <h3>Andrés Segovia</h3>
+          <p>Andrés Segovia trajo la guitarra clásica al escenario del concierto y es conocido por su técnica profunda y su expresión musical.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="Eddie.jpg" alt="Guitarra Eléctrica Moderna" class="img-fluid rounded-circle">
+          <h3>Eddie Van Halen</h3>
+          <p>Eddie Van Halen revolucionó la técnica de guitarra eléctrica con su uso del tapping y es considerado uno de los más grandes rockeros de la historia.</p>
+        </div>
+      </div>
+    </section>    
+
+    <section id="subscribe" class="mt-5">
+      <h2>Suscríbete</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Tu Nombre">
+        </div>
+        <div class="form-group">
+          <label for="email">Correo Electrónico</label>
+          <input type="email" class="form-control" id="email" placeholder="tuemail@example.com">
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+    </section>
+  </div>
+</main>
+
+<footer class="bg-dark text-white text-center p-3 mt-5">
+  <p>Síguenos en redes sociales!</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
+

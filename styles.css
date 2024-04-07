@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+#hero img {
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+#history, #types, #artists {
+  margin-bottom: 4rem;
+}
+
+#history img, #types img, #artists img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+#types .col-md-4 {
+  margin-bottom: 1rem;
+}
+
+#artists ul {
+  list-style: none;
+  padding: 0;
+}
+
+#artists li {
+  background: #fff;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+#subscribe h2, footer {
+  color: #fff;
+}
+
+footer {
+  background-color: #333;
+}
+
+  
+  
